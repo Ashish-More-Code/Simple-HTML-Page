@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Event Management</title>
+    <style>
+        body {
+            background-image: url('https://webartdevelopers.com/blog/wp-content/uploads/2019/02/Sliding-Diagonals-Background-Effect-HTML-CSS.gif');
+            background-size: cover;
+        }
+        th,td {
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;
+        }
+
+        body {
+            max-width: max-content;
+            margin: auto;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        #label {
+            display: inline;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .event-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            overflow: hidden;
+        }
+        li {
+            display: inline;
+        }
+        #submit{
+           
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #e91e63;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="event-title">
+        <h1> Registration form for Events</h1>
+        <div >
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <table align="center"  border="1px">
+        <form action="index.html" >
+            <tr>
+                <th colspan="5">Registration form</th>
+            </tr>
+            <tr>
+                <td>Student Name</td>
+                <td> <input type="text" name="fname" placeholder="Enter full name" required>
+
+                </td>
+            </tr>
+            <tr>
+                <td>Choose</td>
+                <td>
+                    <select name="" id="">
+                        <option value="op">Workshop</option>
+                        <option value="op">Conference</option>
+                        <option value="op">Networking</option>
+                    <select name="" id=""></select>
+                </td>
+            </tr>
+            <tr>
+                <td>College Name</td>
+                <td><input type="text" name="fname" placeholder="Enter college name" required></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date" name="fname" required></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="Male">Male</label>
+                            <td>
+                                <input type="radio" id="Male" name="gender" >
+                            </td>
+                </td>
+            </tr>
+            <td>
+                <label for="Female">Female</label>
+            <td>
+                <input type="radio" id="Female" name="gender">
+            </td>
+            </td>
+    </table>
+    </td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="email" name="email" placeholder="ex:xyz@gmail.com" required></td>
+    </tr>
+    <tr>
+        <td>Mobile Number</td>
+        <td><input type="number" name="mnum" placeholder="Enter mobile number" required></td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td><input type="text" name="Address" placeholder="Enter the Address" required></td>
+    </tr>
+    <tr>
+        <td>State</td>
+        <td><input type="text" name="state" placeholder="Enter the state" required></td>
+    </tr>
+    <tr>
+        <td>city</td>
+        <td><input type="text" name="city " placeholder="Enter city" required></td>
+    </tr>
+    <tr >
+        <td colspan="2"><input type="submit" value="Submit" id="submit"></td>
+        
+    </tr>
+    </form>
+    </table>
+
+
+
+</body>
+
+</html>
