@@ -32,13 +32,13 @@ o	Registration
 
 5.1 Home Page
  
-![image](https://github.com/Ashish-More-Code/Simple-HTML-Page/assets/88304882/cbb9144e-c734-4b18-b496-0317bac64369)
+![image](https://github.com/user-attachments/assets/d07efb1d-c955-430a-a7cc-64141d1ad2d1)
 
 
 5.2 About US
- ![image](https://github.com/Ashish-More-Code/Simple-HTML-Page/assets/88304882/c8e6edf7-2e20-497a-8882-5a9f3341c9c6)
+![image](https://github.com/user-attachments/assets/8ca58d89-775f-4b09-84cf-6bb465e49bf3)
 
 
 5.3 Registration form
- ![image](https://github.com/Ashish-More-Code/Simple-HTML-Page/assets/88304882/65d64805-a53c-4b2c-a72a-d202410d04d6)
+![image](https://github.com/user-attachments/assets/2df3de76-c7c6-4a96-bb3d-c29b7c855d15)
 
